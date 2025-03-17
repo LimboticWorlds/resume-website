@@ -1,0 +1,74 @@
+/*CSS for the Capstone2 */
+.nav-link {
+    color: rgb(246, 244, 244);
+}
+
+#resume .bookmark {
+    color: black;
+}
+
+#hobbies .bookmark {
+    color: white;
+}
+
+#hobbies .book {
+    color: black;
+}
+
+#resume .bookmark:hover {
+    color: blue;
+}
+
+#hobbies .bookmark:hover {
+    color: blue;
+}
+
+#hobbies .book:hover {
+    color: blue;
+}
+
+.bd-mode-toggle {
+    z-index: 1500;
+}
+
+#experience {
+    background-color: rgb(246, 244, 244);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.location {
+    margin-bottom: 5px;
+}
+
+#theatrics>.container-fluid>.container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 1em;
+    column-gap: 1em;
+    margin: 1em;
+}
+
+.cover-container {
+    height: 100vh;
+}
+
+.nav-container {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.nav-container li {
+    list-style-type: none;
+    justify-content: end;
+}
+
+footer .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
